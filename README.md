@@ -18,4 +18,5 @@ Nina is a project from "At the Beach" team on ThoughtWorks.
  
  # References
  https://github.com/johnpapa/angular-styleguide#application-structure
+
  http://www.ng-newsletter.com/advent2013/#!/day/5
