@@ -36,3 +36,7 @@ It's important that you configure mocky.io using **advanced mode** and set these
  http://stackoverflow.com/questions/22526903/restangular-crossdomain-request-what-i-do-wrong
 
  https://cdnjs.com/libraries
+ 
+ http://blog.nodejitsu.com/package-dependencies-done-right/
+ 
+ http://package-json-validator.com/
