@@ -6,6 +6,7 @@ Nina is a project from "At the Beach" team on ThoughtWorks.
 # Stack
  - NodeJS
  - AngularJS 1.4.3
+ - Restangular
  - Grunt Template
  
 # Next Steps
@@ -16,7 +17,9 @@ Nina is a project from "At the Beach" team on ThoughtWorks.
  - Add tests
  - Add to CI
  
- # References
+# References
  https://github.com/johnpapa/angular-styleguide#application-structure
 
  http://www.ng-newsletter.com/advent2013/#!/day/5
+ 
+ http://www.ng-newsletter.com/posts/restangular.html
