@@ -10,7 +10,7 @@ Nina is a project from "At the Beach" team on ThoughtWorks.
  - Grunt Template
  
 # Tips
-For test **Rest calls**, I used **mocky.io**. This site provide url that provide responde by json.
+For test **Rest calls**, I used **mocky.io**. This site provide url that provide response by json.
 It's important that you configure mocky.io using **advanced mode** and set these following keys:
 
     'Access-Control-Allow-Origin: {your local domain}'
