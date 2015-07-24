@@ -1,10 +1,16 @@
-var myApp = angular.module('myApp', []);
+var myApp = angular.module('myApp', ['restangular']);
 
-myApp.controller('getInfluentialFigures', function($scope){
-    $scope.figures = [
-        {'id': 'f1', 'name': 'Nina Simone', 'description': 'Singer, black activist', 'socialMovement': 'quilombolas'},
-        {'id': 'f2', 'name': 'Bob Marley', 'description': 'Singer, Reggae pioneer', 'socialMovement': 'quilombolas'},
-        {'id': 'f1', 'name': 'Audre Lorde', 'description': 'Poetic, black activist', 'socialMovement': 'quilombolas'},
-        {'id': 'f2', 'name': 'Angela Davis', 'description': 'Professor, Reggae pioneer', 'socialMovement': 'quilombolas'}
-    ];
+myApp.config(function(RestangularProvider){
+    RestangularProvider.setBaseUrl('http://www.mocky.io/v2');
+    RestangularProvider.setDefaultHeaders({
+    'Content-Type': 'application/json',
+    'X-Requested-With': 'XMLHttpRequest'
+});
+RestangularProvider.setDefaultHttpFields({
+    'withCredentials': true
+});
+});
+
+myApp.controller('getInfluentialFigures', function($scope, Restangular){
+    $scope.figures = Restangular.all('55b1aeca2267c9291c4e9af2').getList().$object;
 });
