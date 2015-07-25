@@ -46,3 +46,5 @@ It's important that you configure mocky.io using **advanced mode** and set these
  http://package-json-validator.com/
  
  https://docs.angularjs.org/guide/unit-testing
+ 
+ http://nathanleclaire.com/blog/2013/12/13/how-to-unit-test-controllers-in-angularjs-without-setting-your-hair-on-fire/
