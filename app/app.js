@@ -12,5 +12,5 @@ RestangularProvider.setDefaultHttpFields({
 });
 
 myApp.controller('getInfluentialFigures', function($scope, Restangular){
-    $scope.figures = Restangular.all('55b1aeca2267c9291c4e9af2').getList().$object;
+    $scope.figures = Restangular.all('55b2f504af8d0ac8187dd1d2').getList().$object;
 });
