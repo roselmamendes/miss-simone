@@ -12,8 +12,10 @@ Nina is a project from "At the Beach" team on ThoughtWorks.
  - Lodash (Restangular dependency)
  - Restangular
  - Grunt Template
+ - Karma
+ - Jasmine
  
-# Tips
+# Test
 For test **Rest calls**, I used **mocky.io**. This site provide url that provide response by json.
 It's important that you configure mocky.io using **advanced mode** and set these following keys:
 
@@ -22,11 +24,13 @@ It's important that you configure mocky.io using **advanced mode** and set these
     'Access-Control-Allow-Headers: Accept, X-Requested-With'
     'Access-Control-Allow-Credentials: true'
  
+ To run tests written using Jasmine, use the command 'npm test' or 'karma start'.
+ 
 # Next Steps
  - [x] Make Rest calls
  - [x] Set the dependencies using npm.
  - [x] Add to CI
- - [ ] Add tests
+ - [x] Add tests
  - [ ] Fix CSS
  - [ ] Set configs (such as url of the back end) using grunt-template
  
