@@ -21,10 +21,10 @@ It's important that you configure mocky.io using **advanced mode** and set these
 # Next Steps
  - [x] Make Rest calls
  - [x] Set the dependencies using npm.
+ - [x] Add to CI
+ - [ ] Add tests
  - [ ] Fix CSS
  - [ ] Set configs (such as url of the back end) using grunt-template
- - [ ] Add tests
- - [ ] Add to CI
  
 # References
  https://github.com/johnpapa/angular-styleguide#application-structure
