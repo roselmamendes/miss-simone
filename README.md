@@ -20,7 +20,7 @@ It's important that you configure mocky.io using **advanced mode** and set these
  
 # Next Steps
  - [x] Make Rest calls
- - [ ] Set the dependencies using npm.
+ - [x] Set the dependencies using npm.
  - [ ] Fix CSS
  - [ ] Set configs (such as url of the back end) using grunt-template
  - [ ] Add tests
