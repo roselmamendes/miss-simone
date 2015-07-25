@@ -43,3 +43,5 @@ It's important that you configure mocky.io using **advanced mode** and set these
  http://blog.nodejitsu.com/package-dependencies-done-right/
  
  http://package-json-validator.com/
+ 
+ https://docs.angularjs.org/guide/unit-testing
