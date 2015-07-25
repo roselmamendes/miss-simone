@@ -17,7 +17,7 @@ Nina is a project from "At the Beach" team on ThoughtWorks.
  
 # Test
 For test **Rest calls**, I used **mocky.io**. This site provide url that provide response by json.
-It's important that you configure mocky.io using **advanced mode** and set these following keys:
+It's important that you configure mocky.io using **advanced mode** and set these following keys to allow cross-domain approach:
 
     'Access-Control-Allow-Origin: {your local domain}'
     'Access-Control-Allow-Methods: GET, POST, PUT, DELETE'
@@ -34,7 +34,7 @@ It's important that you configure mocky.io using **advanced mode** and set these
  - [ ] Fix CSS
  - [ ] Set configs (such as url of the back end) using grunt-template
  
-# References
+# References and useful links
  https://github.com/johnpapa/angular-styleguide#application-structure
 
  http://www.ng-newsletter.com/advent2013/#!/day/5
