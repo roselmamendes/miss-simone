@@ -2,7 +2,8 @@
 This project is aimed be a spike for figure out how we are gonna use AngularJS and other stuff for Nina Client.
 Nina is a project from "At the Beach" team on ThoughtWorks.
 
-(Snap CI)[https://snap-ci.com]
+[Snap CI](https://snap-ci.com)
+
 [![Build Status](https://snap-ci.com/roselmamendes/miss-simone/branch/master/build_image)](https://snap-ci.com/roselmamendes/miss-simone/branch/master)
 
 # Stack
