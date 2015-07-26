@@ -1,5 +1,5 @@
-describe("InfluentialFiguresController", function() {
-  beforeEach(module("InfluentialFiguresApp"));
+describe("NinaController", function() {
+  beforeEach(module("Nina"));
 
   var $controller;
 
@@ -15,14 +15,11 @@ describe("InfluentialFiguresController", function() {
           
           $httpBackend.whenGET('http://0.0.0.0:8000/influential_figures').respond(expectedData);
           
-          $controller("InfluentialFiguresController", {$scope : $scope});
+          $controller("NinaController", {$scope : $scope});
           
           $httpBackend.flush();
           
-          expect($scope.figures[0].id).toEqual(expectedData[0].id);
-          expect($scope.figures[0].name).toEqual(expectedData[0].name);
-          expect($scope.figures[0].description).toEqual(expectedData[0].description);
-          expect($scope.figures[0].socialMovement).toEqual(expectedData[0].socialMovement);
+          expect(1).toEqual($scope.figures.length);
       });
   });
     

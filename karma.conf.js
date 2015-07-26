@@ -20,7 +20,9 @@ module.exports = function(config) {
       'node_modules/lodash/index.js',
       'node_modules/restangular/dist/restangular.js',
       'app.js',
-      '*.js'
+      '*.js',
+      'components/influential-figures/influential-figures.js',
+      'components/influential-figures/*.js'
     ],
 
 

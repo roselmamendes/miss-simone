@@ -1,5 +1,5 @@
-angular.module('InfluentialFiguresApp')
+angular.module('Nina')
 
-.controller('InfluentialFiguresController', function($scope, Restangular){
-    $scope.figures = Restangular.all('influential_figures').getList().$object;
+.controller('NinaController', function($scope, influentialFiguresService){
+    $scope.figures = influentialFiguresService.getAll();
 });
