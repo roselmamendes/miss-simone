@@ -9,14 +9,17 @@ Nina is a project from "At the Beach" team on ThoughtWorks.
 # Stack
  - NodeJS
  - AngularJS 1.4.3
- - Lodash (Restangular dependency)
+ - Lodash (Restangular's dependency)
  - Restangular
- - Grunt Template
  - Karma
  - Jasmine
  
-# Test
-For test **Rest calls**, I used **mocky.io**. This site provide url that provide response by json.
+# Start development
+Run the command 'npm install' for get all dependencies in your environment.
+To run tests written using Jasmine, use the command 'npm test' or 'karma start'.
+ 
+# Tips
+For test real **Rest calls**, I used **mocky.io**. This site provide url that provide response by json.
 It's important that you configure mocky.io using **advanced mode** and set these following keys to allow cross-domain approach:
 
     'Access-Control-Allow-Origin: {your local domain}'
@@ -24,15 +27,14 @@ It's important that you configure mocky.io using **advanced mode** and set these
     'Access-Control-Allow-Headers: Accept, X-Requested-With'
     'Access-Control-Allow-Credentials: true'
  
- To run tests written using Jasmine, use the command 'npm test' or 'karma start'.
- 
 # Next Steps
  - [x] Make Rest calls
  - [x] Set the dependencies using npm.
  - [x] Add to CI
  - [x] Add tests
- - [ ] Fix CSS
+ - [ ] Organize the project's structure using good patterns.
  - [ ] Set configs (such as url of the back end) using grunt-template
+ - [ ] Fix CSS
  
 # References and useful links
  https://github.com/johnpapa/angular-styleguide#application-structure
