@@ -32,7 +32,7 @@ It's important that you configure mocky.io using **advanced mode** and set these
  - [x] Set the dependencies using npm.
  - [x] Add to CI
  - [x] Add tests
- - [ ] Organize the project's structure using good patterns.
+ - [x] Organize the project's structure using good patterns.
  - [ ] Set configs (such as url of the back end) using grunt-template
  - [ ] Fix CSS
  
