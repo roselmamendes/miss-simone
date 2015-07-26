@@ -37,7 +37,7 @@ It's important that you configure mocky.io using **advanced mode** and set these
  - [ ] Fix CSS
  
 # References and useful links
- https://github.com/johnpapa/angular-styleguide#application-structure
+ https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub
 
  http://www.ng-newsletter.com/advent2013/#!/day/5
  
